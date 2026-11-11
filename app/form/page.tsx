@@ -178,9 +178,9 @@ export default function Form() {
             tabIndex={-1}
             role="alert"
             aria-labelledby="error-summary-title"
-            className="mb-6 p-4 border-2 border-red-600 bg-red-50 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"
+            className="mb-6 p-4 border-2 border-red-600 bg-red-50 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-600"
           >
-            <h2
+        <h2
               id="error-summary-title"
               className="text-base font-bold text-red-900"
             >
